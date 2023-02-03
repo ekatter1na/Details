@@ -46,7 +46,7 @@ public class HelloController implements Initializable {
         }
 
         if(message.equals("") || message2.equals("")) {
-            JOptionPane.showMessageDialog(null, "Ошибка! Выбирете станки!");
+            JOptionPane.showMessageDialog(null, "Ошибка! Станки не выбраны!");
         }
         else {
             ButtonChoice.getScene().getWindow().hide();
