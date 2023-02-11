@@ -67,7 +67,7 @@ public class window2 {
 
     @FXML
     void AnalizClikc(ActionEvent event) {
-        int first = Integer.parseInt(brak1.getText()); //записываем в int цену
+        int first = Integer.parseInt(brak1.getText()); //записываем в int количество 
         int [] analiz  = {Integer.parseInt(brak1.getText()), Integer.parseInt(brak2.getText())};// перебираем массив
         for (int i = 0; i <= 1; i++){
             if(first > analiz[i]){
@@ -88,7 +88,7 @@ public class window2 {
     }
     @FXML
     void AnalizClikc2(ActionEvent event) {
-        int first2 = Integer.parseInt(god1.getText()); //записываем в int цену
+        int first2 = Integer.parseInt(god1.getText()); //записываем в int количество 
         int [] analiz2  = {Integer.parseInt(god1.getText()), Integer.parseInt(god2.getText())};
         for (int j = 0; j <= 1; j++){
             if(first2 > analiz2[j]){
