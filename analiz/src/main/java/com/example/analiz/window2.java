@@ -88,8 +88,7 @@ public class window2 {
     }
     @FXML
     void AnalizClikc2(ActionEvent event) {
-        int first2 = Integer.parseInt(god1.getText()); //записываем в first 
-количество 
+        int first2 = Integer.parseInt(god1.getText()); //записываем в first2 количество 
         int [] analiz2  = {Integer.parseInt(god1.getText()), Integer.parseInt(god2.getText())};
         for (int j = 0; j <= 1; j++){
             if(first2 > analiz2[j]){
