@@ -62,7 +62,6 @@ public class HelloController implements Initializable {
 
             Label lab1 = (Label) scene.lookup("#stan");
             Label lab2 = (Label) scene.lookup("#stan1");
-            Label label = (Label) scene.lookup("#coll");
             Label label1 = (Label) scene.lookup("#god1");
             Label label2 = (Label) scene.lookup("#brak1");
             Label label3 = (Label) scene.lookup("#god2");
